@@ -53,16 +53,82 @@
 
 
 
+@media (min-width: 666px) {
+
 
 .gallery.container {
-  padding-bottom: 1000px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10vmin;
-  overflow: hidden;
-  transform: skew(5deg);
+
+padding-bottom: 1000px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10vmin;
+overflow: hidden;
+transform: skew(5deg);
+margin-left: -0.4vmin;
 }
+}
+
+
+
+
+@media (max-width: 665px) {
+
+  .gallery.container {
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10vmin;
+overflow: hidden;
+margin-left: -0.1vmin;
+}
+
+#faq {
+  margin-top: 350px;
+}
+
+}
+
+
+@media (max-width: 519px) {
+  #faq {
+  margin-top: 350px;
+}
+}
+
+
+@media (min-width: 520px) {
+  #faq {
+  margin-top: 500px;
+}
+}
+
+
+@media (min-width: 933px) {
+  #faq {
+  margin-top: 700px;
+}
+}
+
+
+
+@media (min-width: 933px) {
+  #faq {
+  margin-top: 800px;
+}
+}
+
+
+@media (min-width: 2000px) {
+  #faq {
+  margin-top: 9§00px;
+}
+}
+
+
+
+
 .gallery.container .card {
   flex: 1;
   transition: all 1s ease-in-out;
@@ -126,6 +192,9 @@ margin-top: -1000px;
 }
 
 }
+
+
+
 
 
 </style>
@@ -397,6 +466,7 @@ margin-top: -1000px;
 
 
           <div class="gallery container">
+            
             <div class="card">
               <img src="assets/img/angomart.png">
               <div class="card__head">AngoMart</div>
@@ -429,7 +499,7 @@ margin-top: -1000px;
 
 
     <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq" style="margin-top: 900px;">
+    <section id="faq" class="faq" >
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -641,7 +711,7 @@ margin-top: -1000px;
   </footer>
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
 
   
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
